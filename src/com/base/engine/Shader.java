@@ -126,7 +126,7 @@ public class Shader
 		
 		try
 		{
-			shaderReader = new BufferedReader(new FileReader("./res/shaders/" + fileName));
+			shaderReader = new BufferedReader(new FileReader(Constants.SHADER_PATH + fileName));
 			String line;
 			
 			while((line = shaderReader.readLine()) != null)

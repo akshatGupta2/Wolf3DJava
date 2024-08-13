@@ -9,6 +9,7 @@
             "mainClass": "com.base.engine.MainComponent",
             "vmArgs": "-Djava.library.path=${workspaceFolder}/lib/natives/windows",
             "cwd": "${workspaceFolder}"
+            // "console": "internalConsole"
         },
         // {
         //     "type": "java",
@@ -17,7 +18,6 @@
         //     "mainClass": "com.base.engine.MainComponent",  // Replace with your main class
         //     "vmArgs": "-Djava.library.path=${workspaceFolder}/lib/natives/windows",
         //     "cwd": "${workspaceFolder}"
-        //     // "console": "internalConsole"
         // }
     ]
 }

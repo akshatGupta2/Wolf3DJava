@@ -114,7 +114,7 @@ public class Mesh
 		
 		try
 		{
-			meshReader = new BufferedReader(new FileReader("./res/models/" + fileName));
+			meshReader = new BufferedReader(new FileReader(Constants.MODEL_PATH + fileName));
 			String line;
 			
 			while((line = meshReader.readLine()) != null)

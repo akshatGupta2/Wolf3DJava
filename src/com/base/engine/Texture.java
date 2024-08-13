@@ -38,7 +38,7 @@ public class Texture
 		
 		try
 		{		
-			int id = TextureLoader.getTexture(ext, new FileInputStream(new File("./res/textures/" + fileName))).getTextureID();
+			int id = TextureLoader.getTexture(ext, new FileInputStream(new File(Constants.TEXTURE_PATH + fileName))).getTextureID();
 			
 			return id;
 		}
