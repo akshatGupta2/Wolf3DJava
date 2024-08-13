@@ -1,0 +1,3 @@
+[submodule "3DGameEngine"]
+	path = 3DGameEngine
+	url = https://github.com/BennyQBD/3DGameEngine.git

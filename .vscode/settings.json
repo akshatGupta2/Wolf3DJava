@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "3DGameEngine/lib/jinput-2.0.5.jar",
+        "3DGameEngine/lib/jinput-platform-2.0.5-natives-linux.jar",
+        "3DGameEngine/lib/jinput-platform-2.0.5-natives-osx.jar",
+        "3DGameEngine/lib/jinput-platform-2.0.5-natives-windows.jar",
+        "3DGameEngine/lib/jutils-1.0.0.jar",
+        "3DGameEngine/lib/lwjgl-2.9.1.jar",
+        "3DGameEngine/lib/lwjgl-platform-2.9.1-natives-linux.jar",
+        "3DGameEngine/lib/lwjgl-platform-2.9.1-natives-osx.jar",
+        "3DGameEngine/lib/lwjgl-platform-2.9.1-natives-windows.jar",
+        "3DGameEngine/lib/slick-util.jar"
+    ]
+}
