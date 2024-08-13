@@ -4,7 +4,7 @@
     "configurations": [
            {
             "type": "java",
-            "name": "dsfweffr",
+            "name": "launch MainComponent",
             "request": "launch",
             "mainClass": "com.base.engine.MainComponent",
             "vmArgs": "-Djava.library.path=${workspaceFolder}/lib/natives/windows",
