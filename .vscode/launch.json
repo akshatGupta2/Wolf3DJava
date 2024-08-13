@@ -1,23 +1,23 @@
+
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
+           {
             "type": "java",
-            "name": "Current File",
+            "name": "dsfweffr",
             "request": "launch",
-            "mainClass": "${file}",
-            "vmArgs": "-Djava.library.path=${workspaceFolder}/lib/natives/windows"
+            "mainClass": "com.base.engine.MainComponent",
+            "vmArgs": "-Djava.library.path=C:\\prj\\WolfJava\\lib\\natives\\windows",
+            "cwd": "${workspaceFolder}"
         },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "com.base.game.Main",
-            "projectName": "WolfJava_80a9a9f3",
-            "vmArgs": "-Djava.library.path=${workspaceFolder}/lib/natives/windows"
-        }
+        // {
+        //     "type": "java",
+        //     "name": "Launch MainComponent",
+        //     "request": "launch",
+        //     "mainClass": "com.base.engine.MainComponent",  // Replace with your main class
+        //     "vmArgs": "-Djava.library.path=${workspaceFolder}/lib/natives/windows",
+        //     "cwd": "${workspaceFolder}"
+        //     // "console": "internalConsole"
+        // }
     ]
 }

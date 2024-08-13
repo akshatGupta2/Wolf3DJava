@@ -107,7 +107,7 @@ public class MainComponent
 		game.render();
 		Window.render();
 	}
-	
+		
 	private void cleanUp()
 	{
 		Window.dispose();
