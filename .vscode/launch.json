@@ -7,7 +7,7 @@
             "name": "dsfweffr",
             "request": "launch",
             "mainClass": "com.base.engine.MainComponent",
-            "vmArgs": "-Djava.library.path=C:\\prj\\WolfJava\\lib\\natives\\windows",
+            "vmArgs": "-Djava.library.path=${workspaceFolder}/lib/natives/windows",
             "cwd": "${workspaceFolder}"
         },
         // {
