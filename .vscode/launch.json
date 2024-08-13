@@ -9,7 +9,7 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "vmArgs": "-Djava.library.path=C:\\prj\\WolfJava\\3DGameEngine\\lib\\natives\\windows"
+            "vmArgs": "-Djava.library.path=${workspaceFolder}/lib/natives/windows"
         },
         {
             "type": "java",
@@ -17,7 +17,7 @@
             "request": "launch",
             "mainClass": "com.base.game.Main",
             "projectName": "WolfJava_80a9a9f3",
-            "vmArgs": "-Djava.library.path=C:\\prj\\WolfJava\\3DGameEngine\\lib\\natives\\windows"
+            "vmArgs": "-Djava.library.path=${workspaceFolder}/lib/natives/windows"
         }
     ]
 }
